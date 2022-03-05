@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/camera_snap.wav-72ffc13c1b76c96e7d1bc27bb7140364.sample"
+
+[deps]
+
+source_file="res://addons/screen_capture/camera_snap.wav"
+dest_files=[ "res://.import/camera_snap.wav-72ffc13c1b76c96e7d1bc27bb7140364.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

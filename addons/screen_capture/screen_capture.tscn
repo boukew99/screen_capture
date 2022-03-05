@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/screen_capture/screen_capture.gd" type="Script" id=1]
+[ext_resource path="res://addons/screen_capture/camera_snap.wav" type="AudioStream" id=2]
+
+[node name="ScreenCapture" type="FileDialog"]
+margin_right = 597.0
+margin_bottom = 434.0
+access = 2
+filters = PoolStringArray( "*.png" )
+current_dir = "/Users/bouke/Documents/GitHub/MyHub"
+current_path = "/Users/bouke/Documents/GitHub/MyHub/"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Captured" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+
+[connection signal="file_selected" from="." to="." method="_on_ScreenCapture_file_selected"]
