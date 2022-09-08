@@ -11,6 +11,8 @@ config_version=4
 [application]
 
 config/name="screen_capture"
+run/main_scene="res://addons/screen_capture/test.tscn"
+run/low_processor_mode=true
 config/icon="res://addons/screen_capture/screen_capture.png"
 
 [physics]
