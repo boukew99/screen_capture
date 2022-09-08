@@ -8,8 +8,6 @@ margin_right = 597.0
 margin_bottom = 434.0
 access = 2
 filters = PoolStringArray( "*.png" )
-current_dir = "/Users/bouke/Documents/GitHub/MyHub"
-current_path = "/Users/bouke/Documents/GitHub/MyHub/"
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false

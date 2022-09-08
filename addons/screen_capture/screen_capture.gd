@@ -1,7 +1,8 @@
 extends FileDialog
 
-var capture_rect = Rect2(Vector2.ZERO, OS.window_size) # useful with $"NodePath".get_global_rect()
-	
+# defers capturing till a path is selected
+var capture_rect = Rect2(Vector2.ZERO, OS.window_size) 
+
 func _on_ScreenCapture_file_selected(path):
 	get_viewport().set_clear_mode(Viewport.CLEAR_MODE_ONLY_NEXT_FRAME)
 	yield(VisualServer, "frame_post_draw")
