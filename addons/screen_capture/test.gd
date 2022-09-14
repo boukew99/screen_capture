@@ -2,7 +2,7 @@ extends HBoxContainer
 
 func _on_Preview_pressed():
 	$Preview/ScreenCapture.capture()
-	$Preview/ScreenCapture.capture( $Fixed.get_global_rect() )
+#	$Preview/ScreenCapture.capture( $Preview.get_global_rect() )
 	
 	
 func _on_FileDialog_pressed():
